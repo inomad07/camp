@@ -1,6 +1,6 @@
-import ApartmentActions from "./ApartmentActions";
+import CampActions from "./CampActions";
 import SysErrorActions from "./SysErrorActions";
 export {
-    ApartmentActions,
+    CampActions,
     SysErrorActions
 }

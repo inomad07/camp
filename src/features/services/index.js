@@ -1,5 +1,5 @@
-import ApartmentService from './apartment.service'
+import CampService from './camp.service'
 
 export {
-    ApartmentService
+    CampService
 }

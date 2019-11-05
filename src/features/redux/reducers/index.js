@@ -1,12 +1,10 @@
 import { combineReducers } from "redux";
 
-import apartmentReducer from './apartmentReducer'
-import sysErrorsReducer from "./sysErrorsReducer";
+import campReducer from './campReducer'
 
 
 export default combineReducers(
     {
-        apartmentReducer,
-        sysErrorsReducer
+        campReducer,
     }
 );

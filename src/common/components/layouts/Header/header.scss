@@ -6,9 +6,11 @@ body {
 }
 
 .header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  position: absolute;
+  width: 1400px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
 }
 
 .header a {
@@ -53,4 +55,20 @@ body {
   .header-right {
     float: none;
   }
+}
+
+.greetings {
+  position: absolute;
+  width: 455px;
+  height: 118px;
+  left: 473px;
+  top: 257px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #1457B0;
+  border: 2.7px solid #FFFFFF;
 }
