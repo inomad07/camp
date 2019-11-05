@@ -9,7 +9,6 @@ const campReducer = (state = initialData, action) => {
             return [...payload || []];
         }
         case types.GET_SEVERAL_CAMPS: {
-            console.log(payload);
             return [...payload || []];
         }
 

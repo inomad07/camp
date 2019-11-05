@@ -9,9 +9,9 @@ const getAllAction = (data) => {
   }
 };
 
-const createAction = (data) => {
+const getSeveralActions = (data) => {
   return {
-    type: types.ADD_CAMP,
+    type: types.GET_SEVERAL_CAMPS,
     payload: data
   }
 };
@@ -34,7 +34,7 @@ const getSeveralCamps = (number) => {
   return (dispatch) => {
     return CampService.getSeveralCamps(dispatch, number)
       .then((res) => {
-        dispatch(createAction(res.data.results));
+        dispatch(getSeveralActions(res.data.results));
         }
       )
       .catch((error) => {

@@ -1,5 +1,5 @@
 const campValidationRules = {
-    listing_number: 'number|maxLength:10',
+    listing_number: 'number|maximum:10',
 };
 
 
